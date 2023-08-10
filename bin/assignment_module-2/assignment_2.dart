@@ -10,7 +10,7 @@ void main() {
 
   // operate and print average
   double avg = sum/gradesList.length; // double var for possible fractional values
-  int avgRounded = avg.round();
+  int avgRounded = avg.toInt(); //rounding avg to the nearest integer
 
   print("Student's average grade: $avg");
   print("Rounded average: $avgRounded");
