@@ -1,6 +1,7 @@
 void main() {
   // list for storing grades
   List<int> gradesList = [85, 92, 78, 65, 88, 72];
+  //List<int> gradesList = [85, 30, 78, 25, 88, 20]; // conditions checking line
 
   // storing summation of all grades
   int sum = 0;
